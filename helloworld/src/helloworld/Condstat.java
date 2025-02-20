@@ -1,0 +1,32 @@
+package helloworld;
+import java.util.*;
+public class Condstat {
+	public static void main(String[] args) {
+		/*Scanner sc= new Scanner(System.in);
+		System.out.println("Enter you name : ");
+		String a= sc.nextLine();
+		int b= sc.nextInt();
+		System.out.println("User name is : " +a);
+		System.out.println(+b);*/
+		
+		//if statement 
+		/*int a =2;
+		int b=6;
+		int c= 10;
+		
+		if(a>b) {
+			System.out.println("yes, a is greater then b");
+		}
+		else if (b>c) {
+			System.out.println("yes, b is greater then c");
+		}
+		else {
+			System.out.println("c is greater than all among 3 ");
+		}*/
+		
+		//ternary operator 
+		int x=6, y=8, z=9;
+		int res= (x>y)?(x>z)?x:y;
+		System.out.println(res);
+	}
+}

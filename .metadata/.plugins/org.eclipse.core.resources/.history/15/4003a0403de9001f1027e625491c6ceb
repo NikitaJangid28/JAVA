@@ -1,0 +1,16 @@
+package helloworld;
+
+public class helloworld {
+
+	public String name;
+	public int age=23;
+	
+	public Demo() {
+		this.name ="Deepak"; 
+		}
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		System.out.println("Hello World!");
+	}
+
+}

@@ -1,0 +1,16 @@
+package helloworld;
+
+public class MethodOverloading {
+	static int sum(int a, int b) {
+		return a+b;
+	}
+	static float sum(float a, float b) {
+		return a+b;
+	}
+	public static void main(String[] args) {
+		int num= sum(2,5);
+		float decimal= sum(2.5,6.2);
+		System.out.println(num+ "sum of integer values");
+		Sytem.out.println(decimal+ "sum of decimal values");
+	}
+}

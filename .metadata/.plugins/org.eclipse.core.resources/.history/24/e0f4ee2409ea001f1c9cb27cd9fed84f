@@ -1,0 +1,14 @@
+package helloworld;
+
+public class Assignment {
+// = , +=,-=, *=, /= , %= 
+	int a=4;
+	int b= 3; 
+	// Assignment operators - assign the values to the variables
+	
+	// Relational / comparison operator
+	// <, > , <, =<, >=
+	
+	System.outprint((float)(a/b));
+	
+}

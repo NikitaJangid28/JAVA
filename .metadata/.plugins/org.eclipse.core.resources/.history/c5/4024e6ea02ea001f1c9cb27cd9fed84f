@@ -1,0 +1,10 @@
+package helloworld;
+
+public class Strfunctions {
+	public static void main(String [] args) {
+		String greeting= "Hello";
+		System.out.println(greeting);
+		
+	}
+
+}

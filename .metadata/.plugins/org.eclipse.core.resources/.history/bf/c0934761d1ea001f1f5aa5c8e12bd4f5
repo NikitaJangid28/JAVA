@@ -1,0 +1,35 @@
+package helloworld;
+
+import java.util.*;
+public class Switchcond {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number ");
+		int n= sc.nextInt();
+		int i=10;
+		/*switch(num) {
+		case 1:
+			System.out.println("hello");
+			break;
+		case 2: 
+			System.out.println("next step");
+			break;
+		default:
+			System.out.println("number doesn't match");
+		}*/
+		/*for (int i=0;i<=n;i++) {
+			System.out.println(i);
+		}*/
+		
+		/*while(i<=n) {
+			System.out.println(i);
+			i+=2;
+		}*/
+		
+		do {
+			System.out.println(i);
+			n--;
+		}while(n>0);
+		
+	}
+}

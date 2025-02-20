@@ -1,0 +1,10 @@
+package helloworld;
+import java.util.*;
+public class Condstat {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter you name : ");
+		String a= sc.nextLine();
+		System.out.println("User name is : " +a);
+	}
+}

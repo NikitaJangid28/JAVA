@@ -1,0 +1,22 @@
+package helloworld;
+
+public class helloworld {
+
+	public String name;
+	public int a=10;
+	public int b=3;
+	
+	public helloworld() {
+		this.name ="Deepak"; 
+		}
+	public static void main(String[] args) {
+		int a=10;
+		int b=3;
+		helloworld d = new helloworld();
+		System.out.println("Student name :" + d.name);
+		//System.out.println(+ d.age);
+		System.out.println("Hello World!");
+		System.out.println((float)(a/b));
+	}
+
+}

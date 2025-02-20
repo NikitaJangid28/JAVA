@@ -1,0 +1,18 @@
+package helloworld;
+
+public class helloworld {
+
+	public String name;
+	public int age=23;
+	
+	public helloworld() {
+		this.name ="Deepak"; 
+		}
+	public static void main(String[] args) {
+		helloworld d = new helloworld();
+		System.out.println("Student name" +d.name);
+		System.out.println(+ d.age);
+		System.out.println("Hello World!");
+	}
+
+}
