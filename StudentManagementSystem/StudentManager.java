@@ -26,22 +26,22 @@ public class StudentManager {
                 return;
             }
         }
-        System.out.println("❌ Student not found!");
+        System.out.println("Student not found!");
     }
 
     public void sortByName() {
         students.sort(Comparator.comparing(Student::getName));
-        System.out.println("✅ Students sorted by name.");
+        System.out.println(" Students sorted by name.");
     }
 
     public void sortByMarks() {
         students.sort(Comparator.comparingInt(Student::getTotalMarks).reversed());
-        System.out.println("✅ Students sorted by marks.");
+        System.out.println(" Students sorted by marks.");
     }
 
     public void deleteStudent(int rollNumber) {
         students.removeIf(student -> student.getRollNumber() == rollNumber);
-        System.out.println("✅ Student deleted successfully.");
+        System.out.println(" Student deleted successfully.");
     }
 }
 
