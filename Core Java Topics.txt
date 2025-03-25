@@ -1,0 +1,23 @@
+Java introduction
+java features
+java principles
+variables
+data type 
+type casting
+operators
+string method
+maths function
+conditional statements
+java loops
+java arrays
+java methods
+method overloading
+class and object
+constructor 
+access modifiers- final, static, abstract
+Public, Private, Protected
+Encapsulation
+Packages
+Inheritance
+Abstraction
+
